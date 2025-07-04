@@ -1,11 +1,11 @@
-# 🛠️ Haskell-Pandoc Project
+# Haskell-Pandoc Project
 
 This is a simple Haskell-based automation tool that uses **Pandoc** to convert Markdown files into HTML.  
 It’s a practical demonstration of combining Haskell scripting, Markdown documentation, and static site generation.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - ✅ Converts Markdown to clean, structured HTML using [Pandoc](https://pandoc.org/)
 - ✅ Written in pure Haskell, using basic system utilities
@@ -14,7 +14,7 @@ It’s a practical demonstration of combining Haskell scripting, Markdown docume
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 Hspandoc/
 ├── Main.hs         -- The Haskell script that drives the conversion
