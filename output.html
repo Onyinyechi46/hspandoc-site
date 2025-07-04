@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Haskell-Pandoc Output</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛠️ Haskell-Pandoc Output</h1>
+    <input type="text" id="searchBox" placeholder="🔍 Search..." />
+    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <aside id="toc" class="collapsible">
+    <h2 onclick="toggleTOC()">📚 Table of Contents ⬇️</h2>
+    <div id="tocContent"></div>
+  </aside>
+
+  <main id="content">
+    <h1 id="haskell-pandoc-project">🛠️ Haskell-Pandoc Project</h1>
+    <p>This is a simple Haskell-based automation tool that uses
+    <strong>Pandoc</strong> to convert Markdown files into HTML.<br />
+    It’s a practical demonstration of combining Haskell scripting,
+    Markdown documentation, and static site generation.</p>
+    <hr />
+    <h2 id="features">🚀 Features</h2>
+    <ul>
+    <li>✅ Converts Markdown to clean, structured HTML using <a
+    href="https://pandoc.org/">Pandoc</a></li>
+    <li>✅ Written in pure Haskell, using basic system utilities</li>
+    <li>✅ Produces readable, standalone HTML output</li>
+    <li>✅ Lightweight and easy to extend for additional formats or
+    templates</li>
+    </ul>
+    <hr />
+    <h2 id="project-structure">📂 Project Structure</h2>
+    <p>Hspandoc/ ├── Main.hs – The Haskell script that drives the
+    conversion ├── README.md – The input Markdown file to be converted
+    ├── output.html – The generated HTML output file ├── template.html –
+    Custom HTML template used by Pandoc ├── style.css – Stylesheet to
+    beautify the HTML output └── script.js – JavaScript file for
+    interactivity or behavior</p>
+  </main>
+
+  <button id="topBtn" title="Go to top">⬆️</button>
+
+  <footer>
+    <p>Generated with Pandoc & Haskell 🐘</p>
+    <p id="timestamp"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

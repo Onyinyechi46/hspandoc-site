@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Haskell-Pandoc Output</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛠️ Haskell-Pandoc Output</h1>
+    <input type="text" id="searchBox" placeholder="🔍 Search..." />
+    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <aside id="toc" class="collapsible">
+    <h2 onclick="toggleTOC()">📚 Table of Contents ⬇️</h2>
+    <div id="tocContent"></div>
+  </aside>
+
+  <main id="content">
+    $body$
+  </main>
+
+  <button id="topBtn" title="Go to top">⬆️</button>
+
+  <footer>
+    <p>Generated with Pandoc & Haskell 🐘</p>
+    <p id="timestamp"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
